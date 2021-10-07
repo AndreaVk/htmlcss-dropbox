@@ -1,36 +1,76 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: century gothic, sans-serif;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-body{
-    font-family: century gothic;
+.right {
+    float: right;
 }
 
-header{
+header {
     height: 80px;
+    line-height: 80px;
+    font-weight: 600;
+}
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+#logo {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 10px;
 }
 
-#jumbotron{
-    height: 550px;
+#logo img {
+    vertical-align: middle;
 }
 
-/* debug */
-.debug header{
-    background-color: pink;
+nav {
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+    margin-right: 40px;
 }
 
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.button1{
+    padding: 5px 22px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.container nav ul li a:hover{ 
+    text-decoration: underline;
+}
+
+.button1:hover{
+    background-color:rgba(0, 0, 255, 0.8);
+    box-shadow: 1px 1px 3px 1px #000000;
+
+}
+
+/*debug*/
 .debug #jumbotron{
+    height: 900px;
     background-color: red;
 }
 
 .debug main{
-    height: 1800px;
-    background-color: lightblue;
-}
-
-.debug footer{
-    height: 400px;
-    background-color: lightgreen;
+    height: 3000px;
+    background-color: green;
 }
