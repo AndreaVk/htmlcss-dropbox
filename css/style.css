@@ -4,3 +4,33 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: century gothic;
+}
+
+header{
+    height: 80px;
+}
+
+#jumbotron{
+    height: 550px;
+}
+
+/* debug */
+.debug header{
+    background-color: pink;
+}
+
+.debug #jumbotron{
+    background-color: red;
+}
+
+.debug main{
+    height: 1800px;
+    background-color: lightblue;
+}
+
+.debug footer{
+    height: 400px;
+    background-color: lightgreen;
+}
