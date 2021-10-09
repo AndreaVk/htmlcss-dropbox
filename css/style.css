@@ -429,4 +429,50 @@ h5{
 .ptbtn:hover{
     box-shadow: 1px 1px 3px 1px #000000;
 }
+
+.boxcontainer{
+    width: 61%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.firstbox{
+    position: relative;
+    width: calc(100%/ 3 - 10px);
+    height: 50%;
+    margin: 5px;
+    float: left;
+    margin-bottom: 120px;
+}
+
+.boxcontainer:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.firstbox img{
+    background-size: cover;
+    background-position: center;
+    width: 100%
+}
+
+.h6img h6{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.h6img{
+    margin-left: 10px;
+}
+
+.firstbox p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    width: 83%;
+}
+
+.firstbox p span{
+    text-decoration: underline;
 }
