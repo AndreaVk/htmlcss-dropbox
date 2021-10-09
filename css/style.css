@@ -381,3 +381,52 @@ h5{
     background-color:rgba(0, 0, 255, 0.8);
     box-shadow: 1px 1px 3px 1px #000000;
 }
+
+.underbox{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.underbox:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgleft img{
+    width: 51%;
+    float: left;
+}
+
+.textright{
+    width: 42%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.textright h6{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.textright p{
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.ptbtn{
+    width: 40%;
+    padding: 8px 18px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.ptbtn:hover{
+    box-shadow: 1px 1px 3px 1px #000000;
+}
+}
