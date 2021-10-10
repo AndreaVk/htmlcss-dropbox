@@ -493,7 +493,8 @@ h5{
 
 .megacontainer{
     height: 550px;
-    width: 100%;
+    width: 99.9%;
+    margin:0 auto;
 }
 
 .mega1{
@@ -633,4 +634,41 @@ h5{
 
 .quadrato8{
     background-color:  #FFD830;
+}
+
+.sottocontainer{
+    width: 100%;
+    height: 450px;
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.sottocontainer span{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.sottocontainer a{
+    width: 15%;
+    padding: 8px 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    right: 250px;
+    top: 120px;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+}
+
+.testored{
+    width: 23%;
+    margin-left: 380px;
+    color: #5E0124 ;
+    padding-top: 120px;
+}
+
+.sottocontainer a:hover{
+    box-shadow: 1px 1px 3px 1px #000000;
 }
