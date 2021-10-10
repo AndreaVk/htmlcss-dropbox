@@ -492,21 +492,19 @@ h5{
 }
 
 .megacontainer{
-    height: 600px;
+    height: 550px;
     width: 100%;
-    border: 1px solid black;
 }
 
 .mega1{
-    width: 30%;
     height: 100%;
-    border: 1px solid black;
+    width: 30%;
+    float: left;
 }
 
 .quadrato1, .quadrato2, .quadrato3, .quadrato4{
     height: 50%;
     width: 50%;
-    border: 1px solid black;
     float: left;
 }
 
@@ -517,7 +515,7 @@ h5{
 }
 
 .designit{
-    width: 200px;
+    width: 150px;
     margin-top: 50%;
     margin-left: 50%;
     transform: translate(-50%, -50%);
@@ -530,7 +528,7 @@ h5{
 }
 
 .arizona{
-    width: 200px;
+    width: 150px;
     margin-top: 50%;
     margin-left: 50%;
     transform: translate(-50%, -50%);
@@ -542,7 +540,7 @@ h5{
 }
 
 .florida{
-    width: 200px;
+    width: 150px;
     margin-top: 50%;
     margin-left: 50%;
     transform: translate(-50%, -50%);
@@ -554,7 +552,7 @@ h5{
 }
 
 .topps{
-    width: 200px;
+    width: 150px;
     margin-top: 50%;
     margin-left: 50%;
     transform: translate(-50%, -50%);
@@ -563,4 +561,76 @@ h5{
 
 .quadrato4{
     background-color: #FF1C1C ;
+}
+
+.mega2{
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-color: #F5F5F5;
+}
+
+.designit2{
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.mega2 hr{
+    width: 8%;
+    margin-left: 50px;
+    margin-top: 40px;
+    border: 1px solid #E1E1E3 ;
+
+}
+
+.mega2 p{
+    font-size: 15px;
+    width: 75%;
+    margin-left: 60px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.mega2 span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.mega3{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.quadrato5, .quadrato6, .quadrato7, .quadrato8{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+.bicycle, .hearst, .lonely, .clchannel{
+    width: 150px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.quadrato5{
+    background-color: #D5001F ;
+}
+
+.quadrato6{
+    background-color: #B4D0E7 ;
+}
+
+.quadrato7{
+    background-color: #0D2481;
+}
+
+.quadrato8{
+    background-color:  #FFD830;
 }
