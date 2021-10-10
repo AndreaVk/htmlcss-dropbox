@@ -69,14 +69,6 @@ nav li a{
 
 }
 
-/*debug*/
-
-.debug main{
-    height: 3000px;
-}
-
-/*debug end*/
-
 #jumbotron {
     background-color: #b4d0e7;
     position: relative;
@@ -111,8 +103,8 @@ nav li a{
     
 }
 
-#rowtext2. p{
-    color: white;
+#rowtext2 p{
+    color: black;
     margin-top: 100px;
 }
 
@@ -303,7 +295,7 @@ hr{
 }
 
 h4{
-    fontsize: 18px;
+    font-size: 18px;
     margin-left: 25px;
     margin-bottom: 20px;
 }
@@ -443,6 +435,7 @@ h5{
     margin: 5px;
     float: left;
     margin-bottom: 120px;
+    margin-top: 60px;
 }
 
 .boxcontainer:after{
@@ -475,4 +468,99 @@ h5{
 
 .firstbox p span{
     text-decoration: underline;
+}
+
+.boxcontainer section h7{
+    font-size: 41px;
+    font-weight: 800;
+}
+
+.teambox{
+    width: 30%;
+    margin-left: 385px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.teambox h5{
+    font-size: 41px;
+}
+
+.teambox a{
+    color: blue;
+    font-size: 15px;
+}
+
+.megacontainer{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.mega1{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.quadrato1, .quadrato2, .quadrato3, .quadrato4{
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+}
+
+.megacontainer:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.designit{
+    width: 200px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.quadrato1 {
+    background-color:#A2D39B ;
+    border: 10px solid #D0E9CD ;
+}
+
+.arizona{
+    width: 200px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.quadrato2{
+    background-color: #61082B;
+}
+
+.florida{
+    width: 200px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.quadrato3{
+    background-color: #0093CE ;
+}
+
+.topps{
+    width: 200px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.quadrato4{
+    background-color: #FF1C1C ;
 }
