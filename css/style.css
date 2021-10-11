@@ -286,6 +286,10 @@ h3{
     margin-left: 25px;
 }
 
+#spunta{ 
+    margin-right: 10px;
+}
+
 hr{
     width: 15%;
     margin-top: 30px;
@@ -313,6 +317,7 @@ nav{
 
 .finalist nav li{
     margin-bottom: 20px;
+
 }
 
 #sposta2{
@@ -638,7 +643,7 @@ h5{
 
 .sottocontainer{
     width: 100%;
-    height: 450px;
+    height: 380px;
     background-color: #B4D0E7;
     position: relative;
 }
@@ -671,4 +676,43 @@ h5{
 
 .sottocontainer a:hover{
     box-shadow: 1px 1px 3px 1px #000000;
+}
+
+.prefooter{
+    width: 60% ;
+    margin: 0 auto;
+    position: relative;
+}
+
+.prefooter span{
+    font-size: 38px;
+    font-weight: 800;
+    top: -100px;
+    position: absolute;
+}
+
+.hr1{
+    border: 1px solid #E1E1E3;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.prefooter p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.prefooter i{
+    margin-right: 30px;
+    line-height: 0px;
+}
+
+.hr2{
+    border: 1px solid #E1E1E3;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
 }
