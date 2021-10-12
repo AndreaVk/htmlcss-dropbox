@@ -110,7 +110,7 @@ nav li a{
 
 .jumboimage{
     margin-left: 600px;
-    top: 430px;
+    top: 530px;
     position: absolute;
 }
 
@@ -718,8 +718,7 @@ h5{
     width: 100%;
 }
 
-.debug footer{
-    height: 700px;
+footer{
     background-color: #000000;
 }
 
@@ -769,6 +768,7 @@ h5{
 
 .final{
     margin-left: 160px;
+    padding-bottom: 90px;
 }
 
 .final span{
@@ -781,3 +781,4 @@ h5{
     color: #999999 ;
     font-size: 12px;
 }
+
